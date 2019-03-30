@@ -15,7 +15,7 @@
 #### model：
  + ./good_model 里有在20W+数据集上已训练好的 model
  - 附上四张效果图片：
- ![](./small_out_imgs/172.bmp)
+  ![](./small_out_imgs/172.bmp)
  + 如果想要效果更好的 model 可前往这里：https://github.com/1adrianb/face-alignment
  - 可惜这里只给出了测试方法，并未给出训练方法
  
