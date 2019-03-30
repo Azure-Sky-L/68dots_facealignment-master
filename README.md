@@ -7,3 +7,8 @@
  -  fy_net.py: 实习公司前辈搭建的网络，原版本是 caffe，被我翻译了一版 pytorch
  +  deal300.py: 数据预处理，由于实际场景需要，把图片转换为黑白
  -  data_loader.py、test_data_loader.py: 数据载入, data_loader.py 与 test_data_loader.py 唯一区别：test_data_loader.py 比data_loader.py 多 return 了 img_name
+
+#### 数据：
+ + 这里只上传了 1k 训练图片和 316 张测试图片
+ - 更多数据可前往300-w公开数据集下载：https://ibug.doc.ic.ac.uk/resources/300-W/
+ + 这里有用20W数据集训练得到效果比较好的 model：![](./good_model)
