@@ -11,4 +11,4 @@
 #### 数据：
  + 这里只上传了 1k 训练图片和 316 张测试图片
  - 更多数据可前往300-w公开数据集下载：https://ibug.doc.ic.ac.uk/resources/300-W/
- + ./good_model 里有用20W数据集已训练得到效果比较好的 model
+ + ./good_model 里有在20W数据集上已训练好的 model
