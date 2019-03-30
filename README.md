@@ -16,3 +16,6 @@
  + ./good_model 里有在20W数据集上已训练好的 model
  - 如果想要效果更好的 model 可前往这里：https://github.com/1adrianb/face-alignment
  + 可惜这里只给出了测试方法，并未给出训练方法
+ 
+#### 其他：
+ + fy_net 和 hg_net 的输入并不相同：fy_net 的输入是 128×128, hg_net 则是 256×256
