@@ -11,4 +11,8 @@
 #### 数据：
  + 这里只上传了 1k 训练图片和 316 张测试图片
  - 更多数据可前往300-w公开数据集下载：https://ibug.doc.ic.ac.uk/resources/300-W/
+
+#### model：
  + ./good_model 里有在20W数据集上已训练好的 model
+ - 如果想要效果更好的 model 可前往这里：https://github.com/1adrianb/face-alignment
+ + 可惜这里只给出了测试方法，并未给出训练方法
