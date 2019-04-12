@@ -7,7 +7,11 @@
  -  fy_net.py: 实习公司前辈搭建的网络，原版本是 caffe，被我翻译了一版 pytorch
  +  deal300.py: 数据扩增和预处理，由于实际场景需要，把图片转换为黑白
  -  data_loader.py、test_data_loader.py: 数据载入, data_loader.py 与 test_data_loader.py 唯一区别：test_data_loader.py 比data_loader.py 多 return 了 img_name
+ 
+#### 训练思想：
 
+ + 训练网络主要输出两个分支：Heatmap（即预测出的人脸热图） 分支和68个特征点的分支 
+ 
 #### 数据：
  + 这里只上传了 1k 训练图片和 316 张测试图片
  - 更多数据可前往300-w公开数据集下载：https://ibug.doc.ic.ac.uk/resources/300-W/
@@ -21,5 +25,7 @@
  
 #### 其他：
  + fy_net 和 hg_net 的输入并不相同：fy_net 的输入是 128×128, hg_net 则是 256×256
+ 
+ 
  
 
